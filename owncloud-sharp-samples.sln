@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project1", "Project1\Project1.csproj", "{39EB1A2B-D796-4988-85BB-1D35D581823C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Binaries", "Binaries", "{C280295F-A01E-42F7-B9BE-29D8D49F1FED}"
+	ProjectSection(SolutionItems) = preProject
+		Binaries\README.md = Binaries\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ocsharpwpfdemo", "ocsharpwpfdemo\ocsharpwpfdemo.csproj", "{C6C376E1-8CD9-4052-85D8-8E3E3B80B266}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +16,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{39EB1A2B-D796-4988-85BB-1D35D581823C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{39EB1A2B-D796-4988-85BB-1D35D581823C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{39EB1A2B-D796-4988-85BB-1D35D581823C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{39EB1A2B-D796-4988-85BB-1D35D581823C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C376E1-8CD9-4052-85D8-8E3E3B80B266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C376E1-8CD9-4052-85D8-8E3E3B80B266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C376E1-8CD9-4052-85D8-8E3E3B80B266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C376E1-8CD9-4052-85D8-8E3E3B80B266}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
